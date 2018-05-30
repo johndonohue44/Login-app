@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { HomePage } from '../home/home';
-import { CharityPage } from '../charities/charity';
 import { OceanPage } from '../ocean/ocean';
+import { RhinoPage } from '../rhinos/rhinos';
 
 @Component({
-  selector: 'page-profile',
-  templateUrl: 'profile.html'
+  selector: 'page-charity',
+  templateUrl: 'charity.html'
 })
-export class ProfilePage {
+export class CharityPage {
 
   constructor(public navCtrl: NavController) {
 
@@ -21,9 +21,14 @@ export class ProfilePage {
       this.navCtrl.push(HomePage);
   }
   navigateToCharity() {
-      this.navCtrl.push(CharityPage);
-  }
-  navigateToOcean() {
-      this.navCtrl.push(OceanPage);
-  }
+    this.navCtrl.push(CharityPage);
+}
+navigateToOcean() {
+    this.navCtrl.push(OceanPage);
+}
+navigateToRhino() {
+    this.navCtrl.push(RhinoPage);
+}
+
+
 }

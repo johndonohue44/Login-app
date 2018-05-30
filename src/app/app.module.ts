@@ -9,13 +9,20 @@ import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { RegistrationPage } from '../pages/register/registration';
 import { ProfilePage } from '../pages/profile/profile';
+import { CharityPage } from '../pages/charities/charity';
+import { OceanPage } from '../pages/ocean/ocean';
+import { RhinoPage } from '../pages/rhinos/rhinos';
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     LoginPage,
     RegistrationPage,
-    ProfilePage
+    ProfilePage,
+    CharityPage,
+    OceanPage,
+    RhinoPage
   ],
   imports: [
     BrowserModule,
@@ -27,7 +34,10 @@ import { ProfilePage } from '../pages/profile/profile';
     HomePage,
     LoginPage,
     RegistrationPage,
-    ProfilePage
+    ProfilePage,
+    CharityPage,
+    OceanPage,
+    RhinoPage
   ],
   providers: [
     StatusBar,

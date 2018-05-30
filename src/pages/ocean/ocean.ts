@@ -3,13 +3,12 @@ import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { HomePage } from '../home/home';
 import { CharityPage } from '../charities/charity';
-import { OceanPage } from '../ocean/ocean';
 
 @Component({
-  selector: 'page-profile',
-  templateUrl: 'profile.html'
+  selector: 'page-ocean',
+  templateUrl: 'ocean.html'
 })
-export class ProfilePage {
+export class OceanPage {
 
   constructor(public navCtrl: NavController) {
 
@@ -22,8 +21,5 @@ export class ProfilePage {
   }
   navigateToCharity() {
       this.navCtrl.push(CharityPage);
-  }
-  navigateToOcean() {
-      this.navCtrl.push(OceanPage);
   }
 }
