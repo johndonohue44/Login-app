@@ -3,7 +3,7 @@ import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { HomePage } from '../home/home';
 import { CharityPage } from '../charities/charity';
-import { OceanPage } from '../ocean/ocean';
+import { OceanPage } from '../ocean/ocean'
 
 @Component({
   selector: 'page-profile',

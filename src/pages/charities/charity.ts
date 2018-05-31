@@ -4,16 +4,17 @@ import { LoginPage } from '../login/login';
 import { HomePage } from '../home/home';
 import { OceanPage } from '../ocean/ocean';
 import { RhinoPage } from '../rhinos/rhinos';
-
 @Component({
   selector: 'page-charity',
   templateUrl: 'charity.html'
 })
+
 export class CharityPage {
 
   constructor(public navCtrl: NavController) {
 
   }
+
   navigateToLogin() {
     this.navCtrl.push(LoginPage);
     }
